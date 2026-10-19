@@ -1,0 +1,29 @@
+{
+    "EcoAgent": {
+        "checkpoints": [
+            {
+                "steps": 12217,
+                "file_path": "results\\SectWar_Test_06\\EcoAgent\\EcoAgent-12217.onnx",
+                "reward": 8.527953358796927,
+                "creation_time": 1776253317.9094226,
+                "auxillary_file_paths": [
+                    "results\\SectWar_Test_06\\EcoAgent\\EcoAgent-12217.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 12217,
+            "file_path": "results\\SectWar_Test_06\\EcoAgent.onnx",
+            "reward": 8.527953358796927,
+            "creation_time": 1776253317.9094226,
+            "auxillary_file_paths": [
+                "results\\SectWar_Test_06\\EcoAgent\\EcoAgent-12217.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "1.13.1+cpu"
+    }
+}

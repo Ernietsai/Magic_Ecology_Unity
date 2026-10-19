@@ -1,0 +1,75 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1772209417",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\GF75\\.conda\\envs\\MagicEcology\\Scripts\\mlagents-learn config/EcoTrain.yaml --run-id=SectWar_Test_02 --resume --timeout-wait 300",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1772209439"
+    },
+    "total": 22.655135799985146,
+    "count": 1,
+    "self": 0.027875700005097315,
+    "children": {
+        "run_training.setup": {
+            "total": 0.16707619998487644,
+            "count": 1,
+            "self": 0.16707619998487644
+        },
+        "TrainerController.start_learning": {
+            "total": 22.460183899995172,
+            "count": 1,
+            "self": 0.00030299994978122413,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 20.092633300024318,
+                    "count": 1,
+                    "self": 20.092633300024318
+                },
+                "TrainerController.advance": {
+                    "total": 2.168670800019754,
+                    "count": 1,
+                    "self": 2.3200002033263445e-05,
+                    "children": {
+                        "env_step": {
+                            "total": 2.168647600017721,
+                            "count": 1,
+                            "self": 0.0002778000198304653,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 2.1683697999978904,
+                                    "count": 1,
+                                    "self": 0.00011399999493733048,
+                                    "children": {
+                                        "TorchPolicy.evaluate": {
+                                            "total": 2.168255800002953,
+                                            "count": 1,
+                                            "self": 2.168255800002953
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 0.1985768000013195,
+                    "count": 1,
+                    "self": 0.00017970000044442713,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.19839710000087507,
+                            "count": 1,
+                            "self": 0.19839710000087507
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

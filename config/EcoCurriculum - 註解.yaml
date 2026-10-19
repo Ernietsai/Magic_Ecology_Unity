@@ -1,0 +1,12 @@
+curriculum:
+  EcoAgent:
+    measure: progress
+    thresholds: [0.2, 0.5, 0.8] # 達成率閾值
+    min_lesson_length: 100
+    signal_smoothing: true
+    parameters:
+      # 第一課：練習採集 (提高環境資源濃度，降低死亡懲罰)
+      # 第二課：練習控能 (降低資源，加入移動目標)
+      # 第三課：生死對決 (全面開啟敵友傷害)
+      resource_density: [5.0, 2.0, 1.0, 0.5]
+      damage_multiplier: [0.1, 0.5, 1.0, 1.5]

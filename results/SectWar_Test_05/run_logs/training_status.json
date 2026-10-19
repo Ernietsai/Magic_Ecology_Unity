@@ -1,0 +1,110 @@
+{
+    "EcoAgent": {
+        "checkpoints": [
+            {
+                "steps": 3699991,
+                "file_path": "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-3699991.onnx",
+                "reward": 597.3338931658689,
+                "creation_time": 1781828944.2575693,
+                "auxillary_file_paths": [
+                    "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-3699991.pt"
+                ]
+            },
+            {
+                "steps": 3799913,
+                "file_path": "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-3799913.onnx",
+                "reward": 579.0955699758326,
+                "creation_time": 1781829354.0412383,
+                "auxillary_file_paths": [
+                    "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-3799913.pt"
+                ]
+            },
+            {
+                "steps": 3899933,
+                "file_path": "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-3899933.onnx",
+                "reward": 663.0157930169787,
+                "creation_time": 1781829761.7054155,
+                "auxillary_file_paths": [
+                    "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-3899933.pt"
+                ]
+            },
+            {
+                "steps": 3999938,
+                "file_path": "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-3999938.onnx",
+                "reward": 708.9233245372773,
+                "creation_time": 1781830171.9103615,
+                "auxillary_file_paths": [
+                    "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-3999938.pt"
+                ]
+            },
+            {
+                "steps": 4099999,
+                "file_path": "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4099999.onnx",
+                "reward": 697.7564221285284,
+                "creation_time": 1781830570.84808,
+                "auxillary_file_paths": [
+                    "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4099999.pt"
+                ]
+            },
+            {
+                "steps": 4199952,
+                "file_path": "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4199952.onnx",
+                "reward": 696.4158243491099,
+                "creation_time": 1781830990.8999965,
+                "auxillary_file_paths": [
+                    "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4199952.pt"
+                ]
+            },
+            {
+                "steps": 4299953,
+                "file_path": "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4299953.onnx",
+                "reward": 666.4577051172865,
+                "creation_time": 1781831406.5515673,
+                "auxillary_file_paths": [
+                    "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4299953.pt"
+                ]
+            },
+            {
+                "steps": 4399992,
+                "file_path": "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4399992.onnx",
+                "reward": 789.4612684039508,
+                "creation_time": 1781831820.3913648,
+                "auxillary_file_paths": [
+                    "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4399992.pt"
+                ]
+            },
+            {
+                "steps": 4450334,
+                "file_path": "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4450334.onnx",
+                "reward": null,
+                "creation_time": 1781847553.183233,
+                "auxillary_file_paths": [
+                    "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4450334.pt"
+                ]
+            },
+            {
+                "steps": 4459733,
+                "file_path": "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4459733.onnx",
+                "reward": 646.9237120769642,
+                "creation_time": 1786631129.0918727,
+                "auxillary_file_paths": [
+                    "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4459733.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4459733,
+            "file_path": "results\\SectWar_Test_05\\EcoAgent.onnx",
+            "reward": 646.9237120769642,
+            "creation_time": 1786631129.0918727,
+            "auxillary_file_paths": [
+                "results\\SectWar_Test_05\\EcoAgent\\EcoAgent-4459733.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "1.13.1+cpu"
+    }
+}
